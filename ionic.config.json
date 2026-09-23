@@ -1,0 +1,7 @@
+{
+  "name": "GlobalHands-temp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
