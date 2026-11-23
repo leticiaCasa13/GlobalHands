@@ -1,9 +1,7 @@
-package com.globalhands.gb.user.repository;
+package com.globalhands.gb.repository;
 
-import com.globalhands.gb.user.entity.User;
+import com.globalhands.gb.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface UserRepository extends JpaRepository <User, Integer> {   //<>, genéricos,sirven para decirla a una
                                                                           //clase, trabaja con este tipo de datos, solo funcionan

@@ -1,4 +1,4 @@
-package com.globalhands.gb.user.dto;
+package com.globalhands.gb.dto;
 
 
 

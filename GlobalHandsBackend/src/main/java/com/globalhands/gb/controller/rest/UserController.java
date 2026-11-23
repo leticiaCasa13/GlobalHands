@@ -1,8 +1,7 @@
-package com.globalhands.gb.user.controller.rest;
+package com.globalhands.gb.controller.rest;
 
-import com.globalhands.gb.user.dto.UserDto;
-import com.globalhands.gb.user.entity.User;
-import com.globalhands.gb.user.service.UserService;
+import com.globalhands.gb.dto.UserDto;
+import com.globalhands.gb.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

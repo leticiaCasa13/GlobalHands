@@ -1,10 +1,10 @@
-package com.globalhands.gb.user.service;
+package com.globalhands.gb.service;
 
-import com.globalhands.gb.user.dto.UserDto;
-import com.globalhands.gb.user.entity.User;
-import com.globalhands.gb.user.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+import com.globalhands.gb.dto.UserDto;
+import com.globalhands.gb.dto.UserRequestDTO;
+import com.globalhands.gb.dto.UserResponseDTO;
+import com.globalhands.gb.entity.User;
+import com.globalhands.gb.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -40,9 +40,14 @@ public class UserService {
         );
         return userDto;
     }
+    //crear un usuario
 
+        public UserResponseDTO createUser(UserRequestDTO request){
+         User user = new User();
+         user.setFirstName(request.firstName());
+         user.setLastName(request.lastName());
+         user.setEmail(request.email());
 
-    public UserDto createUser(){
 
 
     }

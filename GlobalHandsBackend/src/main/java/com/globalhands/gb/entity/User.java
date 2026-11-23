@@ -1,4 +1,4 @@
-package com.globalhands.gb.user.entity;
+package com.globalhands.gb.entity;
 
 import jakarta.persistence.*;
 
@@ -49,10 +49,6 @@ import jakarta.persistence.*;
         }
 
         // Setters
-
-        public void setId(Integer id) {
-            this.id = id;
-        }
 
         public void setFirstName(String firstName) {
             this.firstName = firstName;
